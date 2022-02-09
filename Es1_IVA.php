@@ -8,7 +8,7 @@
 		array("Nome"=>"Mela","Prezzo"=>0.12,"Quantita'"=>5,"IVA"=>0,"TotPag"=>0)
 	);
     
-    $IVA=22;
+        $IVA=22;
     
 	for ($x = 0; $x <count($Prodotti); $x++) {
 		$Prodotti[$x]["IVA"]=$Prodotti[$x]["Prezzo"]*$Prodotti[$x]["Quantita'"]/100*$IVA;
